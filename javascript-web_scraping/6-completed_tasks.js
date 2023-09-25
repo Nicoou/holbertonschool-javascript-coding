@@ -17,7 +17,7 @@ request.get(url, (err, response, body) => {
       if (!todos[userId]) {
         todos[userId] = 1;
       } else {
-        todos[userId]++
+        todos[userId]++;
       }
     }
   });
