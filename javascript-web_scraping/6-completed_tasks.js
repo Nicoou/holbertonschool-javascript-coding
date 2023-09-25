@@ -21,5 +21,5 @@ request.get(url, (err, response, body) => {
       }
     }
   });
-  console.log(todos)
+  console.log(todos);
 });
